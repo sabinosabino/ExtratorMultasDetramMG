@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Extrair Detalhes das Infrações",
+  "version": "1.3.0",
+  "description": "Percorre a tabela, clica em cada botão #abrir-modal e salva o conteúdo de cada modal em um .txt.",
+  "permissions": ["scripting", "downloads"],
+  "host_permissions": ["<all_urls>"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Extrair detalhes das infrações (.txt)"
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  }
+}
